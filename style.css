@@ -1,0 +1,774 @@
+@font-face {
+    font-family: "VisbyRoundCF-700";
+    src: url(Assets/fonts/VisbyRoundCF-Bold.woff), url(Assets/fonts/VisbyRoundCF-Bold.eot);
+}
+
+@font-face {
+    font-family: "VisbyRoundCF-400";
+    src: url(Assets/fonts/VisbyRoundCF-Regular.woff), url(Assets/fonts/VisbyRoundCF-Regular.eot);
+}
+
+/* poppins font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,500;0,800;1,300&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* gotham fonts */
+
+@font-face {
+    font-family: "GothamRoundedBold";
+    src: url(Assets/fonts/gotham/GothamRounded-Bold.otf), url(/Assets/fonts/gotham/GothamRoundedBold_21016.ttf);
+}
+
+@font-face {
+    font-family: "GothamRoundedBook";
+    src: url(Assets/fonts/gotham/GothamRounded-Book.otf), url(Assets/fonts/gotham/GothamRoundedBook_21018.ttf);
+}
+
+@font-face {
+    font-family: "GothamRoundedMedium";
+    src: url(Assets/fonts/gotham/GothamRounded-Medium.otf), url(Assets/fonts/gotham/GothamRoundedMedium_21022.ttf);
+}
+
+@font-face {
+    font-family: "GothamRoundedLight";
+    src: url(Assets/fonts/gotham/GothamRounded-Light.otf), url(Assets/fonts/gotham/GothamRoundedLight_21020.ttf);
+
+}
+
+* {
+    box-sizing: border-box !important;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+h1 {
+    font-size: 72px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "VisbyRoundCF-700";
+    margin: 0;
+    padding: 0;
+    transition: all 0.3s;
+}
+
+ul {
+    font-family: "VisbyRoundCF-400";
+    margin: 0;
+    padding: 0;
+}
+
+h6 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #1C202B;
+    font-family: "VisbyRoundCF-400";
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: unset;
+}
+
+p {
+    font-family: "VisbyRoundCF-400";
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+.reverseBtn {
+    padding: 10px 36px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #1C202B;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #1C202B;
+    display: inline-block;
+}
+
+.simpleBtn {
+    padding: 10px 36px;
+    font-size: 14px;
+    line-height: 20px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #009877;
+    border-radius: 10px;
+    border: none;
+    display: inline-block;
+}
+
+.planBtn {
+    padding: 10px 36px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #1C202B;
+    text-decoration: none;
+    background-color: white;
+    font-weight: 500;
+    border-radius: 10px;
+    border: 1px solid #1C202B;
+    display: inline-block;
+}
+
+.wrapper {
+    margin-left: 70px;
+}
+
+/* dektop pr hide mpbile menu */
+.mobileNav {
+    display: none;
+}
+
+/*  */
+
+/* dektop pr mobile hamburger icon hide */
+.mBurger {
+    display: none;
+}
+
+/*  */
+
+.mainNav {
+    position: fixed;
+    left: 13px;
+    top: 10px;
+    z-index: 9;
+}
+
+.bannerBtn {
+    position: absolute;
+    top: 20px;
+    right: 39px;
+}
+
+.main {
+    /* background-image: url(Assets/Img/banner.png); */
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    margin-bottom: 100px;
+}
+
+.mainBox h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 76px;
+    text-align: center;
+}
+
+.mainbanner {
+    background: radial-gradient(57.81% 43.67% at 50% 44.05%, rgba(0, 0, 0, 0.55) 4.69%, rgba(0, 0, 0, 0) 94.27%);
+}
+
+.mainBox {
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mainBox h5 {
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    padding: 0 80px;
+    margin-top: 18px;
+}
+
+/* hala cashier */
+
+.cashier {
+    margin-bottom: 100px;
+}
+
+.case-study {
+    width: 100%;
+    position: relative;
+    height: 300px;
+    text-transform: uppercase;
+    overflow: hidden;
+    visibility: visible;
+    animation-name: fadeInUp;
+}
+
+.case-study.bg1:before {
+    background: url(Assets/Img/cashierBg.png);
+}
+
+.case-study:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    z-index: 0;
+    width: 100%;
+    transform-origin: 0 50%;
+    background-size: cover !important;
+    height: 100%;
+    left: -100%;
+    transition: all 400ms cubic-bezier(.65, .25, 0, .925);
+    transition-timing-function: cubic-bezier(.65, .25, 0, .925);
+}
+
+.case-study-no {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #1C202B;
+    font-family: 'Poppins', sans-serif;
+    width: 28%;
+    text-align: end;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    transition: all 500ms cubic-bezier(.65, .25, 0, .925);
+    transition-timing-function: cubic-bezier(.65, .25, 0, .925);
+}
+
+.case-study-no:before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    display: block;
+    width: 86%;
+    height: 1px;
+    content: "";
+    border-top: 1px solid #1C202B;
+}
+
+.case-study-content {
+    position: absolute;
+    top: 50%;
+    left: 32%;
+    width: 37%;
+    transform: translate(10px, -50%);
+    transition: all 500ms cubic-bezier(.65, .25, 0, .925);
+    transition-timing-function: cubic-bezier(.65, .25, 0, .925);
+}
+
+.case-study-content h1 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #1C202B;
+    font-family: "VisbyRoundCF-700";
+    transition: all 0.5s;
+    margin-bottom: 5px;
+    transition: font-size 300ms cubic-bezier(.65, .25, 0, .925);
+    transition-timing-function: cubic-bezier(.65, .25, 0, .925);
+    transition-timing-function: cubic-bezier(.435, .01, 1, .575);
+}
+
+.case-study-content p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3B403F;
+    font-family: "VisbyRoundCF-400";
+    margin-top: 8px;
+    transition: all 0.5s;
+    transition: font-size 300ms cubic-bezier(.65, .25, 0, .925);
+    transition-timing-function: cubic-bezier(.65, .25, 0, .925);
+    text-transform: capitalize;
+}
+
+.case-study:hover {
+    color: #fff;
+}
+
+.case-study:hover:before {
+    left: 0;
+}
+
+.case-study:hover .case-study-no {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    width: 39%;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+.case-study:hover .case-study-no:before {
+    border-top: 1px solid #fff;
+    width: 80%;
+}
+
+.case-study:hover .case-study-content {
+    left: 37%;
+    margin-top: 5px;
+}
+
+.case-study:hover .case-study-content h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 11px;
+}
+
+.case-study:hover .case-study-content p {
+    font-size: 20px;
+    color: white;
+}
+
+/* satisfied customer */
+
+.subHeading {
+    line-height: 48px;
+    text-align: center;
+    color: #1C202B;
+}
+
+.customer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.satisfiedCustomer {
+    margin-bottom: 100px;
+}
+
+/* devices */
+
+.serviceBox {
+    margin-top: 30px;
+}
+
+.devices {
+    margin-bottom: 100px;
+}
+
+.devices .card {
+    border: 1px solid #E9E9E9;
+    border-radius: 20px !important;
+}
+
+.devices .deviceBtn {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #009877;
+}
+
+.devices .card-img-bottom {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.devices .card-body {
+    padding: 30px 110px 45px 30px;
+}
+
+.devices .card-text {
+    color: #3B403F;
+}
+
+.shpe img {
+    margin-top: -3px;
+}
+
+/* counter */
+
+.counter {
+    background-color: #F9F9F9;
+    padding: 70px 0;
+    margin-bottom: 100px;
+}
+
+.counter .box {
+    text-align: center;
+}
+
+.counter .box h1 {
+    color: #1C202B;
+}
+
+.counter .box p {
+    color: #3B403F;
+}
+
+/* pricing */
+
+.devices .pricingBox {
+    background: #FFFFFF;
+    border: 1px solid #E9E9E9;
+    box-shadow: 1px 1px 20px rgb(0 0 0 / 10%);
+    border-radius: 20px;
+    margin: 40px 0;
+    /* padding: 40px 90px; */
+    transition: all 0.3s;
+}
+
+.devices .pricingBox:hover .box-left {
+    background-color: #1C202B;
+
+}
+
+.hovrArrw {
+    display: none;
+}
+
+.devices h5 {
+    color: #3B403F !important;
+    transition: all 0.3s;
+}
+
+.devices .pricingBox:hover h6,
+.devices .pricingBox:hover h2 {
+    color: white !important;
+}
+
+.planBtn {
+    transition: all 0.3s;
+}
+
+.pricingBox:hover .planBtn {
+    background-color: #009877;
+    color: white;
+}
+
+.pricingBox:hover .planBtn .hovrArrw1 {
+    display: none;
+}
+
+.pricingBox:hover .planBtn .hovrArrw {
+    display: inline-block;
+}
+
+.devices .box-left {
+    transition: all 0.3s;
+    background-color: #F9F9F9;
+    padding: 40px 90px;
+    text-align: center;
+}
+
+.devices ul {
+    padding-left: 45px;
+    padding-top: 28px;
+    padding-bottom: 29px;
+}
+
+.devices ul li {
+    list-style: none;
+    padding-bottom: 2px;
+}
+
+.devices ul li span {
+    /* transition: all 0.3s; */
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3B403F;
+    margin: 0px 12px;
+}
+
+.devices .box-right {
+    padding-top: 61px;
+}
+
+/* length */
+
+.mainlenght {
+    background: url(Assets/Img/lengthImg.png);
+    align-items: center;
+    height: 390px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+}
+
+.length h2 {
+    color: white;
+}
+
+.length p {
+    font-weight: 300;
+    color: white;
+    margin-top: 26px;
+    opacity: 0.85;
+    padding-right: 20px;
+    line-height: 26px;
+}
+
+.lengthP {
+    font-family: "VisbyRoundCF-700";
+    color: white;
+    text-transform: uppercase;
+    opacity: 1 !important;
+    margin-top: -9px !important;
+}
+
+.length span {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    color: white;
+    padding-left: 15px;
+    opacity: 0.85;
+}
+
+.length li {
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+.length .lengthBox {
+    padding-left: 30px;
+}
+
+/* footer */
+
+.footer {
+    background-color: #1C202B;
+    padding-top: 45px;
+    padding-bottom: 32px;
+}
+
+.uFoot {
+    margin-bottom: 45px;
+}
+
+.lFoot {
+    padding-top: 30px;
+    border-top: 1px solid #D6D6D6;
+}
+
+.footer p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    opacity: 0.7;
+}
+
+.rightFooter {
+    display: flex;
+    justify-content: end;
+}
+
+.rightFooter img {
+    padding-left: 24px;
+}
+
+.footer a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    opacity: 0.7;
+}
+
+/* opennav */
+
+.openNavBg .bg {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+
+.openNavBg .mainContentAdjust {
+    margin-left: 12px;
+    margin-top: 10px;
+}
+
+.mainNavContent {
+    display: flex;
+    height: 640px;
+    background-color: white;
+    padding: 34px 21px;
+    width: 120px;
+    filter: drop-shadow(1px 1px 25px rgba(0, 0, 0, 0.1));
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+
+/* for showing and hiding menu logos */
+
+/* adjusting mobile menu */
+
+.magnB {
+    margin-bottom: 20px;
+}
+
+.sidenav {
+    display: none;
+}
+
+/*  */
+.mainNavContent .openShowLogo {
+    display: none;
+}
+
+.openNav .openShowLogo {
+    display: block;
+}
+
+.mainNavContent .closehideLogo {
+    display: block;
+}
+
+.openNav .closehideLogo {
+    display: none;
+}
+
+/*  */
+
+/* desktop Menu */
+
+.openNav {
+    width: 520px;
+}
+
+.lBar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.rBar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 60px;
+}
+
+.mainMenu ul li {
+    list-style: none;
+    margin: 15px 0px;
+}
+
+.mainMenu ul li a {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: right;
+    color: #1C202B;
+    font-family: "VisbyRoundCF-400";
+}
+
+.socialHed {
+    font-family: "VisbyRoundCF-400";
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 24px;
+    color: #676767;
+    margin-bottom: 20px;
+}
+
+.mainMenu,
+.logo22,
+.menuSocial {
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s;
+}
+
+.logoChange {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.openNav .mainMenu {
+    opacity: 1;
+    visibility: visible;
+}
+
+.openNav .logo22 {
+    opacity: 1;
+    visibility: visible;
+}
+
+.openNav .menuSocial {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+/* subscription new Page */
+
+
+.navbar2 {
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.right_Nav {
+    display: flex;
+}
+
+.navbar2Content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 25px rgb(0 0 0 / 10%);
+    border-radius: 20px;
+    align-items: center;
+}
+
+.btnHome {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 10px 44px;
+    border-radius: 10px;
+    border: 1px solid #C3C2C1;
+    color: #000000;
+    font-family: "VisbyRoundCF-400";
+}
+
+.ml-4 {
+    margin-left: 60px;
+}

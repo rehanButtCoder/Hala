@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assets/Css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Assets/Css/mediaQueries.css">
+
+    <title>Hala Cashier</title>
+</head>
+
+<body>
+
+
+    <!-- desktopNav -->
+
+    <nav class="mainNav dektopNav">
+        <div class="bg">
+            <div class="mainContentAdjust">
+                <div class="mainNavContent">
+                    <div class="lBar">
+                        <div class="logoChange"><img class="closehideLogo" src="Assets/Img/Logo.png" alt="">
+                            <img class="openShowLogo" src="Assets/Img/Hala Logo Copy 2.png" alt="">
+                        </div>
+                        <div class="logoChange"><img class="closehideLogo" id="opEn" src="Assets/Img/hamburger.png"
+                                alt="">
+                            <img class="openShowLogo" id="closeBtn" src="Assets/Img/closeX.png" alt="">
+                        </div>
+                        <div class="logo2 magnB"><img src="Assets/Img/arbi.png" alt=""></div>
+                    </div>
+                    <div class="rBar">
+                        <div class="logo22"><img src="Assets/Img/Logo.png" alt=""></div>
+                        <div class="mainMenu">
+                            <ul>
+                                <li><a href="#">Features</a></li>
+                                <li><a href="#">Devices</a></li>
+                                <li><a href="#">Pricing</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                        <div class="menuSocial">
+                            <h3 class="socialHed">Social Links</h3>
+                            <img src="Assets/Img/menusocial/twitter.png" alt="">
+                            <img src="Assets/Img/menusocial/facebook.png" alt="">
+                            <img src="Assets/Img/menusocial/instagram.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+    <!-- mobile Menu -->
+
+    <div class="freeClass">
+        <nav class="sidenav" id="mySidenav">
+            <div class="lBar pdLeft">
+                <div class="logoChange">
+                    <!-- <img class="closehideLogo" src="Assets/Img/Logo.png" alt=""> -->
+                    <img class="Mlogo22" src="Assets/Img/Hala Logo Copy 2.png" alt="">
+                </div>
+                <div class="logoChange">
+                    <img class="openShowLogo Mlogo22" onclick="closeNav()" id="closeMbile" src="Assets/Img/closeX.png"
+                        alt="">
+                </div>
+                <div class="magnB"><img src="Assets/Img/arbi.png" alt=""></div>
+            </div>
+            <div class="rBar pdLeft">
+                <div class="Mlogo22"><img src="Assets/Img/Logo.png" alt=""></div>
+                <div class="MmainMenu">
+                    <ul>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Devices</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="MmenuSocial">
+                    <h3 class="socialHed">Social Links</h3>
+                    <img src="Assets/Img/menusocial/twitter.png" alt="">
+                    <img src="Assets/Img/menusocial/facebook.png" alt="">
+                    <img src="Assets/Img/menusocial/instagram.png" alt="">
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+
+
+
+
+
+    <!-- main banner sec -->
+    <section class="main" style="background-image: url(Assets/Img/banner.png);">
+        <img class="mBurger" onclick="openNav()" id="opEnMbile" src="Assets/Img/hamburger.png" alt="">
+        <button class="simpleBtn bannerBtn">Onboard Now</button>
+        <div class="mainbanner">
+            <div class="container wrapper">
+                <div class="mainBox">
+                    <h1>It's high time you told your story</h1>
+                    <h5>Storytelling in business has become a field in its own right as industries have grown</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- satisfied customer -->
+
+    <section class="satisfiedCustomer wrapper">
+        <div class="container">
+            <h2 class="subHeading">300+ satisfied customers</h2>
+            <!-- <marquee direction="left" height="100" width="100%" loop bgcolor="white"> -->
+            <div class="customer">
+                <div><img src="Assets/Img/customers/bubbble.png" alt=""></div>
+                <div><img src="Assets/Img/customers/amer.png" alt=""></div>
+                <div><img src="Assets/Img/customers/enhance.png" alt=""></div>
+                <div><img src="Assets/Img/customers/webpath.png" alt=""></div>
+                <div><img src="Assets/Img/customers/mediator.png" alt=""></div>
+            </div>
+            <!-- </marquee> -->
+        </div>
+    </section>
+
+    <!-- hala cashier -->
+
+    <section class="cashier">
+        <h2 class="subHeading mb-4">Why Hala Cashier?</h2>
+        <div class="cashierContainer">
+            <div class="case-study bg1 wow fadeInUp">
+                <h4 class="case-study-no">01</h4>
+                <div class="case-study-content">
+                    <h1>Features One</h1>
+                    <p>A short description of the service you offer or section of the website to which the card leads.
+                    </p>
+                </div>
+            </div>
+            <div class="case-study bg1 wow fadeInUp">
+                <h4 class="case-study-no">02</h4>
+                <div class="case-study-content">
+                    <h1>Features Two</h1>
+                    <p>A short description of the service you offer or section of the website to which the card leads.
+                    </p>
+                </div>
+            </div>
+            <div class="case-study bg1 wow fadeInUp">
+                <h4 class="case-study-no">03</h4>
+                <div class="case-study-content">
+                    <h1>Features Three</h1>
+                    <p>A short description of the service you offer or section of the website to which the card leads.
+                    </p>
+                </div>
+            </div>
+            <div class="case-study bg1 wow fadeInUp">
+                <h4 class="case-study-no">04</h4>
+                <div class="case-study-content">
+                    <h1>Features Four</h1>
+                    <p>A short description of the service you offer or section of the website to which the card leads.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- devices -->
+
+    <section class="devices wrapper">
+        <div class="container">
+            <h2 class="subHeading">Devices</h2>
+            <div class="row row-cols-1 row-cols-md-2 g-4 serviceBox">
+                <div class="col">
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <h3 class="card-title">Sunmi TS 2</h3>
+                            <p class="card-text">To realize your demand on worry-free dual-display interaction, we
+                                employ an industrial-grade touch chip which can reduce EMI.</p>
+                            <p class="deviceBtn mt-3">More Info &nbsp;<span class="shpe"><img src="Assets/Img/shape.png"
+                                        alt=""></span></p>
+                        </div>
+                        <img src="Assets/Img/devices/9.png" class="card-img-bottom" alt="...">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <h3 class="card-title">Sunmi TS 2</h3>
+                            <p class="card-text">To realize your demand on worry-free dual-display interaction, we
+                                employ an industrial-grade touch chip which can reduce EMI.</p>
+                            <p class="deviceBtn mt-3">More Info &nbsp;<span class="shpe"><img src="Assets/Img/shape.png"
+                                        alt=""></span></p>
+                        </div>
+                        <img src="Assets/Img/devices/image 11.png" class="card-img-bottom" alt="...">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title">Sunmi TS 2</h3>
+                            <p class="card-text">To realize your demand on worry-free dual-display interaction, we
+                                employ an industrial-grade touch chip which can reduce EMI.</p>
+                            <p class="deviceBtn mt-3">More Info &nbsp;<span class="shpe"><img src="Assets/Img/shape.png"
+                                        alt=""></span></p>
+                        </div>
+                        <img src="Assets/Img/devices/image 12.png" class="card-img-bottom" alt="...">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title">SUNMI V2 PRO</h3>
+                            <p class="card-text">To realize your demand on worry-free dual-display interaction, we
+                                employ an industrial-grade touch chip which can reduce EMI.</p>
+                            <p class="deviceBtn mt-3">More Info &nbsp;<span class="shpe"><img src="Assets/Img/shape.png"
+                                        alt=""></span></p>
+                        </div>
+                        <img src="Assets/Img/devices/image 10.png" class="card-img-bottom" alt="...">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- counter -->
+
+    <section class="counter">
+        <div class="container">
+            <div class="wrapper">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="box">
+                            <h1>+200</h1>
+                            <p>Description of the number.People always pay attention to numbers. </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="box">
+                            <h1>20%</h1>
+                            <p>Description of the number.People always pay attention to numbers. </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="box">
+                            <h1>12k</h1>
+                            <p>Description of the number.People always pay attention to numbers. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- pricing -->
+
+    <section class="devices wrapper">
+        <div class="container">
+            <div class="mainBox">
+                <h2 class="subHeading">Pricing</h2>
+                <h5>A short paragraph describing your pricing plans. Provide how subscription or purchase of your
+                    service/product will benefit your customer.</h5>
+            </div>
+
+            <div class="pricingBox">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="box-left">
+                            <h6>B A S I C</h6>
+                            <h2>35.00</h2>
+                            <h6>SAR</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <ul>
+                            <li><img src="Assets/Img/tick.png" alt=""><span>24/7 Support</span></li>
+                            <li><img src="Assets/Img/tick.png" alt=""><span>Cloud Point of Sale</span></li>
+                            <li><img src="Assets/Img/tick.png" alt=""><span>Account Setup Assistance</span></li>
+                            <li><img src="Assets/Img/tick.png" alt=""><span>Menu Management</span></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="box-right">
+                            <a class="planBtn">Select Plan <span class="BtnHover"><img class="hovrArrw1"
+                                        src="Assets/Img/shapeBlack.png" alt="">
+                                    <img class="hovrArrw" src="Assets/Img/whiteArrow.png" alt="">
+                                </span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pricingBox">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="box-left">
+                            <h6>A D V A N C E D</h6>
+                            <h2>45.00</h2>
+                            <h6>SAR</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <ul>
+                            <li><img src="Assets/Img/tick.png" alt=""><span>24/7 Support</span></li>
+                            <li><img src="Assets/Img/tick.png" alt=""><span>Cloud Point of Sale</span></li>
+                            <li><img src="Assets/Img/tick.png" alt=""><span>Account Setup Assistance</span></li>
+                            <li><img src="Assets/Img/tick.png" alt=""><span>Menu Management</span></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="box-right">
+                            <a class="planBtn">Select Plan <span class="BtnHover"><img class="hovrArrw1"
+                                        src="Assets/Img/shapeBlack.png" alt="">
+                                    <img class="hovrArrw" src="Assets/Img/whiteArrow.png" alt="">
+                                </span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pricingBox">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="box-left">
+                            <h6>P R E M I U M</h6>
+                            <h2>55.00</h2>
+                            <h6>SAR</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <ul>
+                            <li><img src="Assets/Img/tick.png" alt=""><span>24/7 Support</span></li>
+                            <li><img src="Assets/Img/tick.png" alt=""><span>Cloud Point of Sale</span></li>
+                            <li><img src="Assets/Img/tick.png" alt=""><span>Account Setup Assistance</span></li>
+                            <li><img src="Assets/Img/tick.png" alt=""><span>Menu Management</span></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="box-right">
+                            <a class="planBtn">Select Plan <span class="BtnHover"><img class="hovrArrw1"
+                                        src="Assets/Img/shapeBlack.png" alt="">
+                                    <img class="hovrArrw" src="Assets/Img/whiteArrow.png" alt="">
+                                </span>
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- length -->
+
+    <section class="length">
+        <div class="container">
+            <div class="wrapper">
+                <div class="row mainlenght">
+                    <!-- <img src="/Assets/Img/lengthImg.png" alt=""> -->
+                    <div class="col-md-6">
+                        <div class="lengthBox">
+                            <h2>Medium length</h2>
+                            <p>A short paragraph describing your pricing plans. Provide how subscription or purchase of
+                                your
+                                service/product will benefit your customer.</p>
+                            <div class="mt-4"><a href="" class="simpleBtn">Onboard Now</a></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="lengthBox lbox2">
+                            <p class="lengthP mb-2">Milestones</p>
+                            <ul>
+                                <li><img src="Assets/Img/whiteTick.png" alt=""><span>+200 satisfied customers</span>
+                                </li>
+                                <li><img src="Assets/Img/whiteTick.png" alt=""><span>20% market growth over the last 4
+                                        years</span></li>
+                                <li><img src="Assets/Img/whiteTick.png" alt=""><span>+150 job openings</span></li>
+                                <li><img src="Assets/Img/whiteTick.png" alt=""><span>+150 job openings</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+    </section>
+
+    <!-- footer -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="wrapper">
+                <div class="row uFoot">
+                    <div class="col-md-8"></div>
+                    <div class="col-md-4">
+                        <div class="rightFooter">
+                            <img src="Assets/Img/social/Vector.png" alt="">
+                            <img src="Assets/Img/social/Vector-1.png" alt="">
+                            <img src="Assets/Img/social/instagram.png" alt="">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row lFoot">
+                    <div class="col-md-2"><img class="footLogo" src="Assets/Img/footerLogo.png" alt=""></div>
+                    <div class="col-md-5">
+                        <p>Copyright 2022 © Hala Cashier. All right reserved</p>
+                    </div>
+                    <div class="col-md-1"></div>
+                    <!-- <div class="col-md-2"></div> -->
+                    <div class="col-md-2"><a href="#">Privacy Policy</a></div>
+                    <div class="col-md-2"><a href="#">Terms of Use</a></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="Assets/Js/bootstrap.bundle.min.js"></script>
+    <script src="Assets/Js/customScript.js"></script>
+</body>
+
+</html>
